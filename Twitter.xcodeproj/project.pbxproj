@@ -12,7 +12,7 @@
 		6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCF52521DF07FC00451C03 /* AppDelegate.swift */; };
 		6EBCF52B21DF07FC00451C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBCF52921DF07FC00451C03 /* Main.storyboard */; };
 		6EBCF54421E047A500451C03 /* TwitterAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCF54321E047A500451C03 /* TwitterAPICaller.swift */; };
-		6EBCF54E21E71F9400451C03 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBCF54D21E71F9400451C03 /* Launch Screen.storyboard */; };
+		92B3EA1C27CEEF6F000D9336 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B3EA1B27CEEF6F000D9336 /* Launch Screen.storyboard */; };
 		D16A18E227C5D1E200CAD657 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16A18E127C5D1E200CAD657 /* LoginViewController.swift */; };
 		D16A18E427C5DBEA00CAD657 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16A18E327C5DBEA00CAD657 /* HomeTableViewController.swift */; };
 		D16A18E827C5EB3300CAD657 /* TweetCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16A18E727C5EB3300CAD657 /* TweetCellTableViewCell.swift */; };
@@ -26,8 +26,8 @@
 		6EBCF52A21DF07FC00451C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EBCF53121DF07FE00451C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EBCF54321E047A500451C03 /* TwitterAPICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAPICaller.swift; sourceTree = "<group>"; };
-		6EBCF54D21E71F9400451C03 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		872C2D82F41D5A5D2A920E9E /* Pods_Twitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B3EA1B27CEEF6F000D9336 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C2D685C92646819A9A0DC30C /* Pods-Twitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter/Pods-Twitter.release.xcconfig"; sourceTree = "<group>"; };
 		D16A18E127C5D1E200CAD657 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D16A18E327C5DBEA00CAD657 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +76,6 @@
 		6EBCF52421DF07FC00451C03 /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
-				6EBCF54D21E71F9400451C03 /* Launch Screen.storyboard */,
 				6EBCF52921DF07FC00451C03 /* Main.storyboard */,
 				6EBCF54321E047A500451C03 /* TwitterAPICaller.swift */,
 				6EBCF52521DF07FC00451C03 /* AppDelegate.swift */,
@@ -85,6 +84,7 @@
 				D16A18E127C5D1E200CAD657 /* LoginViewController.swift */,
 				D16A18E327C5DBEA00CAD657 /* HomeTableViewController.swift */,
 				D16A18E727C5EB3300CAD657 /* TweetCellTableViewCell.swift */,
+				92B3EA1B27CEEF6F000D9336 /* Launch Screen.storyboard */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EBCF54E21E71F9400451C03 /* Launch Screen.storyboard in Resources */,
+				92B3EA1C27CEEF6F000D9336 /* Launch Screen.storyboard in Resources */,
 				37D29B8621F90E3400984A88 /* Assets.xcassets in Resources */,
 				6EBCF52B21DF07FC00451C03 /* Main.storyboard in Resources */,
 			);
