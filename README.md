@@ -48,6 +48,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-
-![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/43163898/156472171-c89c5ddb-ff4e-409b-99f1-c7c706e7197f.gif)
-
+![ezgif com-gif-maker (finalFix)](https://user-images.githubusercontent.com/43163898/156472707-82c41d15-f282-4b8b-a55b-cdf72b632a33.gif)
